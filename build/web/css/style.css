@@ -1,0 +1,95 @@
+form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+h3 {
+    color: red;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"],
+.register-button {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label[for="remember"] {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+input[type="submit"],
+.register-button {
+    background-color: #0073e6;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+.register-button:hover {
+    background-color: #005bbd;
+}
+
+.register-button {
+    background-color: #ff0000;
+}
+
+h1#login-heading {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    color: #0073e6;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+p a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
